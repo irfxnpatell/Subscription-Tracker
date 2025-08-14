@@ -1,5 +1,5 @@
 import User from '../models/users.model.js';
-import {JWT_SECRET} from './/config/env.js'
+import {JWT_SECRET} from '../config/env.js'
 import jwt from 'jsonwebtoken'
 
 const authorize = async(req , res , next ) => {
